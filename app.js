@@ -39,6 +39,13 @@ http.createServer(function(req,res){
 	      res.end();
 	   });
 	}
+	if(req.url === "/123"){
+	   //fs.readFile("index.html", function (err, data) {
+	      res.writeHead(200, {'Content-Type': 'text/plain'});
+	      res.write('Hello World');
+	      res.end();
+	  //});
+	}
      
      
 }).listen(5000);

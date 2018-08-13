@@ -6,7 +6,7 @@ var connection1 = mysql.createConnection({
     database : 'chat'
 });
 
-connection.connect(function(err) {
+connection1.connect(function(err) {
     if (err) throw err;
 });
 
