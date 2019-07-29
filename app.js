@@ -48,7 +48,7 @@ http.createServer(function(req,res){
 	}
      
      
-}).listen(5000);
+}).listen(1000);
 
 /*app.get('/save',function(req,res){
     var post  = {from:'me', to:'you', msg:'hi'};
